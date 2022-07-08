@@ -6,7 +6,6 @@ import top.ray4j.modules.sys.dao.SysUserTokenDao;
 import top.ray4j.modules.sys.entity.SysUserToken;
 import top.ray4j.modules.sys.service.SysUserTokenService;
 
-
 @Service("sysUserTokenService")
 public class SysUserTokenServiceImpl extends ServiceImpl<SysUserTokenDao, SysUserToken> implements SysUserTokenService {
 

@@ -6,7 +6,6 @@ import top.ray4j.modules.sys.dao.SysUserDao;
 import top.ray4j.modules.sys.entity.SysUser;
 import top.ray4j.modules.sys.service.SysUserService;
 
-
 /**
  * 系统用户
  *
