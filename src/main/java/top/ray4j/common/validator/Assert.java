@@ -1,6 +1,7 @@
 package top.ray4j.common.validator;
 
 import org.apache.commons.lang.StringUtils;
+import top.ray4j.common.exception.RRException;
 
 /**
  * 数据校验

@@ -1,5 +1,6 @@
 package top.ray4j.common.validator;
 
+import top.ray4j.common.exception.RRException;
 import top.ray4j.common.utils.Constant;
 
 import javax.validation.ConstraintViolation;
