@@ -1,3 +1,4 @@
+![ray4j-fast](https://socialify.git.ci/ruiyeclub/ray4j-fast/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Light)
 **项目说明** 
 - ray4j-fast是一个轻量级开发脚手架
 - 整合Mybatis-plus持久层框架、Redis缓存、JWT登录鉴权、Kaptcha验证码、Swagger3接口文档、Validator校验框架
@@ -37,4 +38,7 @@ ray4j-fast
 - 修改application-dev.yml，更新MySQL账号和密码
 - Eclipse、IDEA运行Ray4jApplication.java，则可启动项目
 - Swagger文档路径：http://localhost:8080/swagger-ui/
+  
+![swagger3](https://ruiyeclub.oss-cn-shenzhen.aliyuncs.com/picgo/%E6%88%AA%E5%B1%8F2024-07-27%2022.58.07.png)
+  
 <br>
