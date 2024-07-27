@@ -3,8 +3,7 @@ package top.ray4j.common.exception;
 /**
  * 自定义异常
  *
- * @author: Cr.
- * @date: 2022/7/21
+ * @author Mark sunlightcs@gmail.com
  */
 public class RRException extends RuntimeException {
     private static final long serialVersionUID = 1L;

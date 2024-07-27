@@ -1,0 +1,8 @@
+version: '2'
+services:
+  ray4j-fast:
+    image: ray4j/fast
+    ports:
+      - "8080:8080"
+    environment:
+      - spring.profiles.active=dev

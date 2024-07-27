@@ -1,10 +1,15 @@
 package top.ray4j.common.utils;
 
+import com.alibaba.druid.util.StringUtils;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang.StringUtils;
 
 import javax.servlet.http.HttpServletRequest;
 
+/**
+ * IP地址
+ *
+ * @author Mark sunlightcs@gmail.com
+ */
 @Slf4j
 public class IPUtils {
 
@@ -21,7 +26,7 @@ public class IPUtils {
             if (StringUtils.isEmpty(ip) || "unknown".equalsIgnoreCase(ip)) {
                 ip = request.getHeader("Proxy-Client-IP");
             }
-            if (StringUtils.isEmpty(ip) || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)) {
+            if (StringUtils.isEmpty(ip) || ip.isEmpty() || "unknown".equalsIgnoreCase(ip)) {
                 ip = request.getHeader("WL-Proxy-Client-IP");
             }
             if (StringUtils.isEmpty(ip) || "unknown".equalsIgnoreCase(ip)) {

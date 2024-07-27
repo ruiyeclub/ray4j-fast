@@ -1,7 +1,6 @@
 package top.ray4j.common.validator;
 
 import top.ray4j.common.exception.RRException;
-import top.ray4j.common.utils.Constant;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
@@ -39,9 +38,5 @@ public class ValidatorUtils {
             }
             throw new RRException(msg.toString());
         }
-    }
-
-    public static void validateEntity(Object object, Constant.CloudService type) {
-        validateEntity(object, type.getValidatorGroupClass());
     }
 }

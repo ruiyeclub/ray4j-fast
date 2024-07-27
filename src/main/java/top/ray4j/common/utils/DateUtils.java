@@ -15,7 +15,6 @@ import java.util.Date;
  * @author Mark sunlightcs@gmail.com
  */
 public class DateUtils {
-
     /**
      * 时间格式(yyyy-MM-dd)
      */
