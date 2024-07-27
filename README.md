@@ -25,8 +25,7 @@ ray4j-fast
 │ 
 ├─Ray4jApplication 项目启动类
 │  
-├──resources 
-│  ├─application 配置文件
+└── resources 资源文件目录
 ```
 <br> 
 
