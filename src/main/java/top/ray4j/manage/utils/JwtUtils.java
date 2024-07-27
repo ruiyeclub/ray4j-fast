@@ -10,7 +10,6 @@ import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
-import static sun.security.x509.X509CertInfo.SUBJECT;
 import static top.ray4j.manage.interceptor.AuthorizationInterceptor.USERNAME_KEY;
 import static top.ray4j.manage.interceptor.AuthorizationInterceptor.USER_KEY;
 
@@ -29,6 +28,8 @@ public class JwtUtils {
     private String secret;
     private long expire;
     private String header;
+
+    public static final String SUBJECT = "cr.";
 
     public String generateToken(long userId, String username) {
         Date nowDate = new Date();
